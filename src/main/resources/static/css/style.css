@@ -1,0 +1,139 @@
+/* Font */
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand&subset=latin,latin-ext);
+
+
+
+/* Moderni box model */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Patrick Hand', cursive;
+    color: #332a2d;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+
+/* Menu */
+nav {
+    background: #000000;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+    background-color: #332a2d;
+}
+
+
+
+.section {
+    padding: 20px 0;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 960px;
+}
+
+
+
+.hello {
+    background: #C7D0D8;
+}
+
+.meandcoffee {
+    float: right;
+    margin: 0 0 30px 30px;
+    width: 40%;
+    max-width: 200px;
+    height: auto;
+    border: none;
+   /* border-radius: 50%;  */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Fotogalerie */
+.gallery {
+    background: #ffffff;
+}
+
+.photo {
+    display: inline-block;
+    width: 60%;
+    margin-right: 2.33%;
+    margin-top: 1.166%;
+    margin-bottom: 1.166%;
+    border: none;
+    /* border-radius: 20px;*/
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.photo:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+
+/* Kontakt */
+.contact {
+    background: #C7D0D8;
+}
+
+.clearfloat {
+    clear: left;
+}
+
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background: #ED1C24 ;
+}
+
